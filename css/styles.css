@@ -83,21 +83,24 @@ body {
 }
 
 /* Card Section */
-
 #location {
+  height: 45rem;
   background-image: url("../assets/images/locations-background.jpeg");
-  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2rem;
+  margin: 0 2rem 0 2rem;
+}
+
+.card-container {
   color: gray;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .location-header {
   text-align: center;
-}
-
-card-container {
-  display: flex;
 }
 
 .cards {
@@ -106,11 +109,26 @@ card-container {
   background-color: black;
   width: 300px;
   margin-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Footer Section */
 #cta {
   text-align: center;
+}
+
+.card-location {
+  padding-bottom: 2rem;
+}
+
+.card-address {
+  padding-bottom: 2rem;
+}
+
+.card-unit {
+  padding-bottom: 2rem;
 }
 
 #copyright {
@@ -124,4 +142,12 @@ card-container {
 
 .sleep-text {
   padding-bottom: 2rem;
+}
+
+.cta-header {
+  padding: 1rem 0 4rem 0;
+}
+
+.cta-email {
+  padding-bottom: 3rem;
 }
