@@ -37,7 +37,7 @@ body {
 
 .header-container {
   background-image: url("../assets/images/mission-background.jpeg");
-  height: 950px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -60,16 +60,15 @@ body {
 /* Gallery section */
 
 #gallery-section {
+  padding: 5rem;
   text-align: center;
 }
 
 .gallery-container {
   display: flex;
   justify-content: center;
-}
 
-.gallery-box {
-  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 
 .secondrow-gallery {
@@ -80,7 +79,7 @@ body {
 .gallery-img {
   width: 300px;
   height: 200px;
-  padding-bottom: 10px;
+  margin-right: 2rem;
 }
 
 /* Card Section */
@@ -117,4 +116,12 @@ card-container {
 #copyright {
   font-size: 1rem;
   padding: 20px;
+}
+
+.tea-text {
+  padding-bottom: 2rem;
+}
+
+.sleep-text {
+  padding-bottom: 2rem;
 }
